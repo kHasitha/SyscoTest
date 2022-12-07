@@ -24,7 +24,7 @@ struct PlanetsListView: View {
                 })
               }
                 if planetListVM.loadMore{
-                    ProgressView().onAppear {planetListVM.getnextPage()}
+                    ProgressView().onAppear {planetListVM.getplanets()}
                 }
                 
             }

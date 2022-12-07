@@ -11,8 +11,6 @@ import Combine
 class PlanetListItemViewModel: ObservableObject {
     var planet : Planet
    
-    
-    
     init(planet:Planet){
         self.planet = planet
     }
